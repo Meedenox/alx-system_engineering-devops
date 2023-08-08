@@ -1,2 +1,2 @@
 #!/bin/bash
-du | sort -nr
+fin . -mindepth 1 -type d |wc -l
